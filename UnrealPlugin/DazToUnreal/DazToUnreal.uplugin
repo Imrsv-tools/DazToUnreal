@@ -10,7 +10,7 @@
 	"DocsURL": "https://github.com/daz3d/DazToUnreal#readme",
 	"MarketplaceURL": "",
 	"SupportURL": "https://github.com/daz3d/DazToUnreal/issues",
-	"EngineVersion": "5.3.0",
+	"EngineVersion": "5.4.0",
 	"CanContainContent": true,
 	"Installed": true,
 	"Modules": [
@@ -18,8 +18,9 @@
 			"Name": "DazToUnreal",
 			"Type": "Editor",
 			"LoadingPhase": "Default",
-			"WhitelistPlatforms": [
-				"Win64", "Mac"
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
 			]
 		}
 	],
